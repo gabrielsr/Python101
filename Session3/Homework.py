@@ -24,11 +24,11 @@ index = months.index("February")
 print(index)
 x = "March" in months
 
-if not bd_month.isnumeric():
+if not months.isnumeric():
   print('please type a numeric value')
-  exit()
+  exit(months in not numeric)
 else:
-  bd_month = int(bd_month)
+  months = int(bd_month)
 
 
 

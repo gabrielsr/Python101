@@ -34,7 +34,7 @@ else:
   pass
 
 
-# Assignment 1
+# Assignment 4.1
 
 # Create a function named:
 # > inputNumberInRange
