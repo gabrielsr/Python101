@@ -1,5 +1,4 @@
 print('exercise 2.1')
-
 curr_year = 2020
 
 # get birth date
@@ -25,3 +24,4 @@ birth_year = int(birth_year)
 years_ago = curr_year - birth_year
 out = f'So it was only {years_ago} years ago?! Jez'
 print(out)
+

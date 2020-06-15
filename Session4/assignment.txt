@@ -1,0 +1,12 @@
+Assignment
+-----------
+
+Functions can be used for avoiding us to reapt ourselves while programming. 
+
+4.1 
+Refactor your calculator of days since birthday to use inputNumberInRange (Session4.exercise1)
+
+
+4.2
+Create a function daysBetween(date1, date2) that calculates the number of days between two different dates. 
+Each date should be a tuple (year, month, day)
