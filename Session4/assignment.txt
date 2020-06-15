@@ -3,6 +3,9 @@ Assignment
 
 Functions can be used for avoiding us to reapt ourselves while programming. 
 
+To Watch: 
+https://www.youtube.com/watch?v=NE97ylAnrz4
+
 4.2 
 Refactor your calculator of days since birthday to use inputNumberInRange (Session4.exercise1)
 
