@@ -6,7 +6,8 @@ def guess(range_start, range_end):
   """ Try to guess the number choosen by the player """
   low = range_start # the lowest possible number
   high = range_end # the highest possible number
-  print(f'Think in a number between {range_start} and {range_end}. It ')
+  print(f'Think of a number between {range_start} and {range_end}. \U0001F4AD')
+  print('\n') 
   input('press enter to continue...')
   tries = 0
   while not high == low:
@@ -28,9 +29,10 @@ def guess(range_start, range_end):
 def give_hint(range_start, range_end):
   """ Choose a number and let the player guess. Give some feedback at each guess """
   # generate a random number inside the range
+  
+  print('I will think of a number.\n')
   number = random.randint(range_start, range_end)
-  print('now it is your turn. I will choose a number and you guess.\n')
-  print('Type a number. I will say if it higher than the number that I "thought".\n\n')
+  print('Ok. Now you guess. Type a number. I will say if it higher than the number that I choose.\n\n')
   tries = 0
   while True: # while True will repeat until find a break
     tries = tries + 1
@@ -56,6 +58,7 @@ def check_score(guesses, hints):
 # Game
 print("Let's start. ")
 guesses = guess(0, 20)
+print('now it is your turn.')
 hints = give_hint(0, 20)
 check_score(guesses, hints)
 
