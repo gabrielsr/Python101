@@ -1,14 +1,11 @@
+print('exercise 5.1')
 
-def input_number_in_range (message, range_start, range_end):
-  """ Get a number from user and check if is in the expected range """
-  input_str = input(message)
-  if not input_str.isnumeric():
-    print('please type a numeric value')
-    exit()
-  else:
-    input_number = int(input_str)
+# import a function that we defined in other file
+from .user_input import input_number_in_range_with_retry
 
-  if input_number > range_end or input_number < range_start:
-    print(f'the value must be between {input_number} and {range_end}')
-  return input_number
-  
+# 
+birth_day = input_number_in_range_with_retry("insert the day that you were born in", 1, 31)
+
+birth_month = input_number_in_range_with_retry("insert the month that you were born in", 1, 12)
+
+print(f'your birthday is {birth_day}/{birth_month}')

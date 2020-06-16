@@ -6,10 +6,14 @@ Functions can be used for avoiding us to reapt ourselves while programming.
 To Watch: 
 https://www.youtube.com/watch?v=NE97ylAnrz4
 
+
+'Refactoring' is a term used by programmers for restructuring an existing body of code, altering its internal structure without changing its external behavior.
+Usually we want to change our code to be more easy to understand and modify. 
+
 4.2 
-Refactor your calculator of days since birthday to use inputNumberInRange (Session4.exercise1)
+Refactor your calculator of days  since birthday(Assignment Session 3) to use input_number_in_range (Session4.exercise1)
 
 
 4.3
-Create a function daysBetween(date1, date2) that calculates the number of days between two different dates. 
-Each date should be a tuple (year, month, day)
+Create a function days_between(date1, date2) that calculates the number of days between two different dates. 
+Each date should be a tuple (year, month, day). So you should call your function 
