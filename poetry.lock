@@ -1,0 +1,19 @@
+[[package]]
+category = "main"
+description = "Emoji for Python"
+name = "emoji"
+optional = false
+python-versions = "*"
+version = "0.5.4"
+
+[package.extras]
+dev = ["nose", "coverage", "coveralls"]
+
+[metadata]
+content-hash = "286bb44154c7694fd149398ae259ca76ec2206edffd453032f124428bdfb98cc"
+python-versions = "^3.8"
+
+[metadata.files]
+emoji = [
+    {file = "emoji-0.5.4.tar.gz", hash = "sha256:60652d3a2dcee5b8af8acb097c31776fb6d808027aeb7221830f72cdafefc174"},
+]

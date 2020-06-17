@@ -21,6 +21,8 @@ print()
 # as is, the printed callendar always start with the 1st day on Monday. Lets change that
 
 # Assignment
+
+# Part 1
 # based on the code above create a function  that prints a calendar of a month that starts in a week day passed as a parameter
 
 # Exemple: 
@@ -44,6 +46,12 @@ def print_calendar(week_day):
   return
 
 
+# Part 2
+# Create another version of the function that doesn't use while loops but use 'while' loops instead. 
+
+
 # Challenge
 # Evolve your print_calendar function for accepting holidays as a parameters and print some distinction for a day that is a holiday
 
+# Challenge 2. 
+# Can you create a version of the function that uses recursive calls instead of 'for' or 'while' loops?  
